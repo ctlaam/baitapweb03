@@ -1,0 +1,72 @@
+.m-dialog-form{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10000;
+    display: flex;
+}
+.form-detail-employee{
+    width: 55%;
+    height:70vh;
+    margin: auto;
+    background-color: #fff;
+}
+.header-form-employee{
+    
+    height: 12%;
+}
+.header-form-left{
+    display: flex;
+    width: 90%;
+    float: left;
+    height: 100%;
+    align-items: center;
+    padding:20px 12px 20px 32px;
+    justify-content:start;
+}
+.header-form-right{
+    width: 9%;
+    height: 100%;
+    float: right;
+    padding:13px;
+    display: flex;
+    align-items: start;
+    justify-content:space-around;
+
+}
+.btn-close-form-icon{
+    background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -89px -144px;
+    width: 24px;
+    height: 24px;
+}
+.btn-help-form-icon{
+    background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -144px -144px;
+    width: 24px;
+    height: 24px;
+}
+h1.title-header-form{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
+.is-customer,.is-supplier{
+    padding:0 19.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 165px;
+    height: 33px;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
