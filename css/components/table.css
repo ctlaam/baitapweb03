@@ -1,0 +1,101 @@
+.m-grid {
+  width: 100%;
+  overflow: hidden;
+  height:calc(100% - 110px)
+}
+.m-gird-table {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.m-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+ul {
+  padding: 0px;
+}
+.m-table th {
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+  height: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #e5e8ec;
+}
+thead tr:first-child th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+th:last-child {
+  border-right: none;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+.action-employee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tbody tr {
+  height: 44px;
+}
+
+.tbody tr td {
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+.tbody tr td:first-child {
+  border-left: none;
+}
+.tbody tr td:last-child {
+  border-right: none;
+}
+.icon-action {
+  background: url("../../assets/img/Sprites.88b1c3bd.svg") no-repeat -896px -359px;
+  width: 16px;
+  height: 16px;
+}
+.default-action {
+  color: #0075c0;
+  position: relative;
+  font-weight: 600;
+}
+.choice-action {
+  position: absolute;
+  font-weight: 300;
+}
+ul.choice-action {
+  width: 105px;
+  height: 90px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  position: absolute;
+  left: -30px;
+  top: 25px;
+  display: none;
+}
+li.choice-action-item {
+  padding-left: 8px;
+  height: calc(84px / 3);
+}
+li:last-child {
+}
+li.choice-action-item:hover {
+  color: rgb(39, 147, 39);
+  background-color: #ccc;
+}
+
+tr.active {
+  background-color: #f2f9ff;
+}

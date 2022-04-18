@@ -1,0 +1,38 @@
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url("./components/table.css");
+@import url("./components/icon-header.css");
+@import url("./components/combobox.css");
+@import url("./components/item-navbar.css");
+@import url("./layout/navbar.css");
+@import url("./layout/header.css");
+@import url("./layout/content.css");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:13px;
+    font-family: MISA NotoSans;
+    color: #111111;
+}
+@font-face {
+    font-family:MISA NotoSans;
+    src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+@font-face {
+    font-family:MISA NotoSans Bold;
+    src: url("../assets/fonts/notosans-bold.b8d8f8f8.woff2");
+}
+@font-face {
+    font-family:MISA NotoSans Italic;
+    src: url("../assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
+li {
+    padding:0  ;
+    list-style-type: none;
+}
