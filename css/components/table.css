@@ -101,3 +101,16 @@ li.choice-action-item:hover {
 tr.active {
   background-color: #f2f9ff;
 }
+.form-bank .btn {
+  margin-top:6px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #8d9096;
+  border-radius: 3px;
+  min-width:100px;
+  height: 24px;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 20px;
+}
